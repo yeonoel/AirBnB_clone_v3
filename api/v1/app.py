@@ -15,10 +15,9 @@ app.register_blueprint(app_views)
 
 @app.teardown_appcontext
 def teardown():
-    """Call storage.close()."""
+    """handle method that call storage.close()."""
     storage.close()
 
 
 if __name__ == "__main__":
     app.run(host=host, port=port)
-
