@@ -4,14 +4,14 @@
 """
 
 
-from flask import jsonify
+from flask import jsonify, request
 from api.v1.views import app_views
 
 
-@app_views@route('/status', methods=['GET'])
+@app_views.route('/status', methods=['GET'])
 def status():
     """
     function for status route that returns the status
     """
-    if request.method == 'GET'
+    if request.method == 'GET':
         return (jsonify({"status": "OK"}))
