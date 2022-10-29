@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""Flask route that return status response."""
+""" status of apiFlaskroute
+    that return status response.
+"""
 
 
 from flask import jsonify
