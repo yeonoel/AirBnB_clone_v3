@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Flask route that return status resonse."""
+"""Flask route that return status response."""
 
 
 from flask import jsonify

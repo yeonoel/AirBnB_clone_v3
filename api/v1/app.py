@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Entry point of the application."""
+"""Flask app that intergrates with AirBnB static HTML Templates."""
 
 from models import storage
 from api.v1.views import app_views
