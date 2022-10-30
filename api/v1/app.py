@@ -5,6 +5,7 @@ Flask App that integrates with AirBnB static HTML Template
 
 from models import storage
 from api.v1.views import app_views
+from flask_cors import CORS, cross_origin
 import os
 from flask import Flask
 
